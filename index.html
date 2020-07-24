@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+
+<head id="head">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title id="tab">Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">What did you do this summer? This survey assesses the activity of individuals ages 18-24
+        enrolled at colleges and universites during summer 2020.</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="Scout Finch" required>
+        <br>
+        <label id="email-label" for="email">Email </label>
+        <input type="email" id="email" placeholder="scoutfinch@ua.edu" required>
+        <br>
+        <label id="number-label" for="number">Hours spent online</label>
+        <input type="number" id="number" min=0 max=24 placeholder=0 required>
+        <br>
+        <label for="dropdown">Most frequent activity</label>
+        <select name="dropdown" id="dropdown">
+            <option value="work">work</option>
+            <option value="play">play</option>
+        </select>
+        <br>
+            <label id="wish-label">Wish you could...
+                <br>
+                <label id="restaurant-label">
+                    <input type="radio" name="wish" value="restaurant">
+                    Go to a restaurant</label>
+
+                <br>
+                <label id="movie-label">
+                    <input type="radio" name="wish" value="movies">
+                    Go to the movies</label>
+
+                <br>
+                <label id="friends-label">
+                    <input type="radio" name="wish" value="friends">
+                    Go to a friend's house</label>
+            </label>
+            <br>
+            <label id="exercise-checkbox-label" for="exercises">Exercises you do:
+                <br>
+                <label for="walk">
+                    <input id="walk" value="walk" type="checkbox">walk</label>
+                <br>
+                <label for="run">
+                    <input id="run" value="run" type="checkbox">
+                    run</label>
+                <br>
+                <label for="soccer">
+                    <input id="soccer" value="soccer" type="checkbox">
+                    soccer</label>
+                <br>
+                <label for="handball">
+                    <input id="handball" value="handball" type="checkbox">
+                    handball</label>
+
+            </label>
+
+
+            <br>
+            <label id="comments-label" for="comments">Additional Comments:<br>
+                <textarea id="comments"></textarea></label>
+            <br>
+            <button id="submit">Submit
+            </button>
+    </form>
+
+</body>
+
+</html>
