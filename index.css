@@ -1,8 +1,11 @@
 main{
-    background-color: rgb(240, 240, 240);
+    margin-top: 40px;
+    margin-left: 30px;
 }
 body {
-    background: lightsalmon;
+    background-color: rgb(140, 140,140);
+    font-family: 'Red Rose', cursive;
+
 }
 #head {
 
@@ -13,14 +16,23 @@ body {
 }
 
 #title {
-
+    text-align: center;
+    color: white;
+    font-family: 'Red Rose', cursive;
+    background-color:rgb(40,40,40);
+    padding: 20px 20px 20px 20px;
 }
 
 #description {
-
+text-align: center;
+background-color: rgb(190, 190, 200);
+padding: 20px 20px 20px 20px;
 }
 
 #survey-form {
+    color:white;
+    background-image: url(https://static01.nyt.com/images/2020/03/22/science/06VIRUS-QUARANTINE1/merlin_170125221_b1680835-87aa-4f10-82ab-01f9a5382bf7-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=1800);
+    
 
 }
 
