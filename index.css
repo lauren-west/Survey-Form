@@ -1,11 +1,12 @@
 main{
-    margin-top: 40px;
-    margin-left: 30px;
+   
 }
 body {
     background-color: rgb(140, 140,140);
+    color: white;
     font-family: 'Red Rose';
     font-weight: bolder;
+    margin: 50px 150px 50px 150px;
 
 }
 #head {
@@ -25,64 +26,76 @@ body {
 }
 
 #description {
-text-align: center;
-background-color: rgb(190, 190, 200);
-padding: 20px 20px 20px 20px;
+    text-align: center;
+    background-color: rgb(190, 190, 200);
+    padding: 20px 20px 20px 20px;
 }
 
 #survey-form {
     color:white;
     background-image: url(https://static01.nyt.com/images/2020/03/22/science/06VIRUS-QUARANTINE1/merlin_170125221_b1680835-87aa-4f10-82ab-01f9a5382bf7-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=1800);
-    
+    padding: 20px 20px 20px 20px;
 
 }
 
 #name-label{
-    padding: 10px 0px 10px 0px; 
+   
 }
 
 #name {
-  
+    margin-bottom: 15px;
 }
 
 #email-label {
-    padding: 10px 0px 10px 0px; 
+    
 }
 
 #email {
-  
+    margin-bottom: 15px;
 }
 
 #number-label {
-    padding: 10px 0px 10px 0px; 
+  
 }
 
 #number {
-  
+    margin-bottom: 15px;
 }
 
 #dropdown {
-  
+    margin-bottom: 15px;
+}
+
+#wish-div{
+    
 }
 
 #wish-radio-label{
-    padding: 10px 0px 10px 0px; 
-}
-
-#exercise-checkbox-label {
-    padding: 10px 0px 10px 0px; 
   
 }
 
+#friends-label {
+    
+}
+
+#exercise-checkbox-label {
+ 
+   
+}
+#exercise {
+    
+}
+
 #comments-label {
-    padding: 10px 0px 10px 0px; 
   
 }
 
 #comments {
-  
+    font-family: 'Red Rose';
+    margin-bottom: 15px;
 }
 
 #submit {
-    padding: 10px 20px 10px 20px; 
+    padding: 0px 30px 0px 30px; 
+    margin-bottom: 50px;
 }
